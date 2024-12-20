@@ -1,5 +1,5 @@
 import { ExternalLink } from 'lucide-react';
-// import Image from 'next/image';
+import Image from 'next/image';
 
 
 interface ProjectCardProps {
@@ -18,7 +18,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   title,
   description,
   image,
-  technologies,
+  technologies, 
   liveUrl,
   githubUrl,
 }) => {
@@ -28,12 +28,12 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
       <div className="relative h-48 sm:h-64 mb-4 sm:mb-8">
         <div className="absolute inset-0 w-full h-full">
           <div className="relative w-full h-full rounded-xl overflow-hidden border-2 sm:border-4 border-gray-800 shadow-xl">
-            <img
-              src={image}
+            <Image
+              src={`/hugogaray/${image}`}
               alt={title}
-              
-              
-              className="transition-all duration-500 group-hover:scale-105 object-fill contain"
+              layout="fill"
+              objectFit="contain"
+              className="transition-all duration-500 group-hover:scale-105"
             />
           </div>
         </div>
