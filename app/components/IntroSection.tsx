@@ -97,7 +97,7 @@ export default function IntroSection() {
           <div className="absolute bottom-0 right-0 lg:relative lg:bottom-auto lg:right-auto h-[60vh] lg:h-full w-full lg:w-auto">
             <div className="relative h-full w-full flex items-end justify-center lg:justify-end">
             <Image
-            src="/perfil1.png"
+            src="/hugogaray/perfil1.png"
             
             alt="Description of image"
             width={700} 
