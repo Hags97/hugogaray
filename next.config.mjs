@@ -5,7 +5,7 @@ const nextConfig = {
   
   reactStrictMode: true,
   images: {
-    unoptimized: true, // Desactiva la optimización de imágenes para entornos estáticos
+    unoptimized: true, 
   },
 
   
